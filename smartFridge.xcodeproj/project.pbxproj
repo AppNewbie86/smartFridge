@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73DA7362983BF4900DDE97D /* smartFridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DA7352983BF4900DDE97D /* smartFridgeApp.swift */; };
+		D73DA7382983BF4900DDE97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DA7372983BF4900DDE97D /* ContentView.swift */; };
+		D73DA73A2983BF4A00DDE97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73DA7392983BF4A00DDE97D /* Assets.xcassets */; };
+		D73DA73D2983BF4A00DDE97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73DA73C2983BF4A00DDE97D /* Preview Assets.xcassets */; };
+		D73DA7472983BF4A00DDE97D /* smartFridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DA7462983BF4A00DDE97D /* smartFridgeTests.swift */; };
+		D73DA7512983BF4A00DDE97D /* smartFridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DA7502983BF4A00DDE97D /* smartFridgeUITests.swift */; };
+		D73DA7532983BF4A00DDE97D /* smartFridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DA7522983BF4A00DDE97D /* smartFridgeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73DA7432983BF4A00DDE97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73DA72A2983BF4900DDE97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73DA7312983BF4900DDE97D;
+			remoteInfo = smartFridge;
+		};
+		D73DA74D2983BF4A00DDE97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73DA72A2983BF4900DDE97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73DA7312983BF4900DDE97D;
+			remoteInfo = smartFridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D73DA7322983BF4900DDE97D /* smartFridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartFridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73DA7352983BF4900DDE97D /* smartFridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartFridgeApp.swift; sourceTree = "<group>"; };
+		D73DA7372983BF4900DDE97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D73DA7392983BF4A00DDE97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73DA73C2983BF4A00DDE97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D73DA7422983BF4A00DDE97D /* smartFridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartFridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73DA7462983BF4A00DDE97D /* smartFridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartFridgeTests.swift; sourceTree = "<group>"; };
+		D73DA74C2983BF4A00DDE97D /* smartFridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartFridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73DA7502983BF4A00DDE97D /* smartFridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartFridgeUITests.swift; sourceTree = "<group>"; };
+		D73DA7522983BF4A00DDE97D /* smartFridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartFridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73DA72F2983BF4900DDE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA73F2983BF4A00DDE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA7492983BF4A00DDE97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73DA7292983BF4900DDE97D = {
+			isa = PBXGroup;
+			children = (
+				D73DA7342983BF4900DDE97D /* smartFridge */,
+				D73DA7452983BF4A00DDE97D /* smartFridgeTests */,
+				D73DA74F2983BF4A00DDE97D /* smartFridgeUITests */,
+				D73DA7332983BF4900DDE97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73DA7332983BF4900DDE97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73DA7322983BF4900DDE97D /* smartFridge.app */,
+				D73DA7422983BF4A00DDE97D /* smartFridgeTests.xctest */,
+				D73DA74C2983BF4A00DDE97D /* smartFridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73DA7342983BF4900DDE97D /* smartFridge */ = {
+			isa = PBXGroup;
+			children = (
+				D73DA7352983BF4900DDE97D /* smartFridgeApp.swift */,
+				D73DA7372983BF4900DDE97D /* ContentView.swift */,
+				D73DA7392983BF4A00DDE97D /* Assets.xcassets */,
+				D73DA73B2983BF4A00DDE97D /* Preview Content */,
+			);
+			path = smartFridge;
+			sourceTree = "<group>";
+		};
+		D73DA73B2983BF4A00DDE97D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D73DA73C2983BF4A00DDE97D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D73DA7452983BF4A00DDE97D /* smartFridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D73DA7462983BF4A00DDE97D /* smartFridgeTests.swift */,
+			);
+			path = smartFridgeTests;
+			sourceTree = "<group>";
+		};
+		D73DA74F2983BF4A00DDE97D /* smartFridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D73DA7502983BF4A00DDE97D /* smartFridgeUITests.swift */,
+				D73DA7522983BF4A00DDE97D /* smartFridgeUITestsLaunchTests.swift */,
+			);
+			path = smartFridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73DA7312983BF4900DDE97D /* smartFridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73DA7562983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridge" */;
+			buildPhases = (
+				D73DA72E2983BF4900DDE97D /* Sources */,
+				D73DA72F2983BF4900DDE97D /* Frameworks */,
+				D73DA7302983BF4900DDE97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartFridge;
+			productName = smartFridge;
+			productReference = D73DA7322983BF4900DDE97D /* smartFridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D73DA7412983BF4A00DDE97D /* smartFridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73DA7592983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridgeTests" */;
+			buildPhases = (
+				D73DA73E2983BF4A00DDE97D /* Sources */,
+				D73DA73F2983BF4A00DDE97D /* Frameworks */,
+				D73DA7402983BF4A00DDE97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73DA7442983BF4A00DDE97D /* PBXTargetDependency */,
+			);
+			name = smartFridgeTests;
+			productName = smartFridgeTests;
+			productReference = D73DA7422983BF4A00DDE97D /* smartFridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D73DA74B2983BF4A00DDE97D /* smartFridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73DA75C2983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridgeUITests" */;
+			buildPhases = (
+				D73DA7482983BF4A00DDE97D /* Sources */,
+				D73DA7492983BF4A00DDE97D /* Frameworks */,
+				D73DA74A2983BF4A00DDE97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73DA74E2983BF4A00DDE97D /* PBXTargetDependency */,
+			);
+			name = smartFridgeUITests;
+			productName = smartFridgeUITests;
+			productReference = D73DA74C2983BF4A00DDE97D /* smartFridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73DA72A2983BF4900DDE97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D73DA7312983BF4900DDE97D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D73DA7412983BF4A00DDE97D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D73DA7312983BF4900DDE97D;
+					};
+					D73DA74B2983BF4A00DDE97D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D73DA7312983BF4900DDE97D;
+					};
+				};
+			};
+			buildConfigurationList = D73DA72D2983BF4900DDE97D /* Build configuration list for PBXProject "smartFridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73DA7292983BF4900DDE97D;
+			productRefGroup = D73DA7332983BF4900DDE97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73DA7312983BF4900DDE97D /* smartFridge */,
+				D73DA7412983BF4A00DDE97D /* smartFridgeTests */,
+				D73DA74B2983BF4A00DDE97D /* smartFridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73DA7302983BF4900DDE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73DA73D2983BF4A00DDE97D /* Preview Assets.xcassets in Resources */,
+				D73DA73A2983BF4A00DDE97D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA7402983BF4A00DDE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA74A2983BF4A00DDE97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73DA72E2983BF4900DDE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73DA7382983BF4900DDE97D /* ContentView.swift in Sources */,
+				D73DA7362983BF4900DDE97D /* smartFridgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA73E2983BF4A00DDE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73DA7472983BF4A00DDE97D /* smartFridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73DA7482983BF4A00DDE97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73DA7512983BF4A00DDE97D /* smartFridgeUITests.swift in Sources */,
+				D73DA7532983BF4A00DDE97D /* smartFridgeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D73DA7442983BF4A00DDE97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73DA7312983BF4900DDE97D /* smartFridge */;
+			targetProxy = D73DA7432983BF4A00DDE97D /* PBXContainerItemProxy */;
+		};
+		D73DA74E2983BF4A00DDE97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73DA7312983BF4900DDE97D /* smartFridge */;
+			targetProxy = D73DA74D2983BF4A00DDE97D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D73DA7542983BF4A00DDE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D73DA7552983BF4A00DDE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73DA7572983BF4A00DDE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smartFridge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73DA7582983BF4A00DDE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smartFridge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D73DA75A2983BF4A00DDE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartFridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smartFridge";
+			};
+			name = Debug;
+		};
+		D73DA75B2983BF4A00DDE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartFridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smartFridge";
+			};
+			name = Release;
+		};
+		D73DA75D2983BF4A00DDE97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartFridge;
+			};
+			name = Debug;
+		};
+		D73DA75E2983BF4A00DDE97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntax.hemmerich.smartFridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartFridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73DA72D2983BF4900DDE97D /* Build configuration list for PBXProject "smartFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DA7542983BF4A00DDE97D /* Debug */,
+				D73DA7552983BF4A00DDE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73DA7562983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DA7572983BF4A00DDE97D /* Debug */,
+				D73DA7582983BF4A00DDE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73DA7592983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DA75A2983BF4A00DDE97D /* Debug */,
+				D73DA75B2983BF4A00DDE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73DA75C2983BF4A00DDE97D /* Build configuration list for PBXNativeTarget "smartFridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DA75D2983BF4A00DDE97D /* Debug */,
+				D73DA75E2983BF4A00DDE97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73DA72A2983BF4900DDE97D /* Project object */;
+}
