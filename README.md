@@ -1,6 +1,10 @@
 # smartFridge
 Kühlschrank App mit Lebensmittelfach und Getränkefach
 
+
+![owl](https://user-images.githubusercontent.com/101304191/215222711-d7162cc3-7c60-4d7d-96d0-75d977dfad6c.jpeg)
+
+
 1. Kühlschrank mit ViewModel
 
 In dieser Aufgabe schreibst du eine App mit ViewModel, die deinen Kühlschrank und seinen Inhalt managen wird.
